@@ -17,7 +17,7 @@ int main()
 
 	string errors[11];
 	errors[1] = "Invalid characters in file name";
-	
+	errors[2] = "I said, without ";
 	cout << "Give me name of the file (without extension buddy) that is in program's folder" << endl;
 	getline(cin, filename); //gettin' da line
 	for (int i = 0; i < filename.length();i++) {
